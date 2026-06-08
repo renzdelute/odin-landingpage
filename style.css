@@ -91,11 +91,30 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: 70vh;
 }
 
 .information-header .hero-main-text {
     color: black;
     margin-top: 35px;
     font-size: 30px;
+}
+
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 100px;
+    border: 3px solid blue;
+    border-radius: 12px;
+    margin: 20px;
 }
