@@ -79,6 +79,7 @@ nav {
 .hero-btn {
     background-color: #3882f6;
     border: none;
+    width: 200px;
     padding: 15px 30px;
     margin-top: 20px;
     border-radius: 5px;
@@ -115,7 +116,95 @@ nav {
 
 .box {
     padding: 100px;
-    border: 3px solid blue;
+    border: 3px solid rgb(30, 30, 172);
     border-radius: 12px;
     margin: 20px;
 }
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.box-container  {
+    width: 200px;
+    margin: 20px;
+}
+
+.box-container .text-box {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.third-section {
+    background: #e5e7eb;
+    height: 50vh;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-bold {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+
+.fourth-section {
+    height: 50vh;
+}
+
+.action-call-container {
+    background: #3882f6;
+    width: 1000px;
+    padding: 80px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-call-action {
+    font-weight: 800;
+}
+
+.sign-up-btn .signupbtn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #ffffff !important;
+    background-color: #3882f6;
+    cursor: pointer;
+    border: none;
+}
+
+.text-footer {
+    color: white;
+}
+
+.footer {
+    background-color: var(--background);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
